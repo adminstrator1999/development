@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('first stage') {
       steps {
-        sh '''python main.py
+        sh '''python leetcode/main.py
 '''
       }
     }
